@@ -1,6 +1,6 @@
 {
   "name": "ryan-hipchat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A simple module for installing Atlassian\u0027s HipChat client on Linux",
   "author": "rcoleman",
   "description": "Module for installing Atlassian\u0027s HipChat client in Linux. Currently supports Ubuntu only.",
@@ -12,12 +12,12 @@
   ],
   "types": [],
   "checksums": {
-    "Modulefile": "d49228427df348ad77569932421be660",
+    "Modulefile": "fbbf2520ee44d6343fdfed7cf20f1157",
     "README.markdown": "74815a80a229c7d0b9f60fad181cf184",
     "manifests/init.pp": "dca537e0eaea44bf532f66fdb17f7bfd",
     "manifests/repo.pp": "52ca3ad6d8c7fb3d48a5a8227a72a919"
   },
-  "source": "",
-  "project_page": "",
+  "source": "git@github.com:rcoleman/puppet-module-hipchat.git",
+  "project_page": "https://github.com/rcoleman/puppet-module-hipchat",
   "license": "Apache 2.0"
 }
