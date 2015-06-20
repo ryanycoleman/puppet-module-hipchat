@@ -5,7 +5,7 @@ class hipchat(
   if $manage_repo {
     require hipchat::repo
   }
-  
+
   package { 'hipchat':
     ensure => installed,
   }
