@@ -10,7 +10,7 @@ class hipchat::repo {
 			  include_src       => false,
 			}
 			
-			apt::key { 'hipchat':
+			apt::key { '0x69F57C04EA38EEE7A47E9BCCAAD4AA21729B5780':
 			  key_source => 'https://www.hipchat.com/keys/hipchat-linux.key',
 			}
 			
