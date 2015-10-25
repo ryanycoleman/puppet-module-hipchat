@@ -6,8 +6,8 @@ class hipchat(
     require hipchat::repo
   }
   
-  package { 'hipchat':
-    ensure => installed,
+  package { 'hipchat4':
+    ensure => latest,
   }
 
 }

@@ -4,14 +4,15 @@ class hipchat::repo {
     'Debian': {
       
       apt::source { 'hipchat':
-			  location          => 'http://downloads.hipchat.com/linux/apt',
-			  release           => 'stable',
+			  location          => 'https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client',
+			  release           => "$lsbdistcodename",
 			  repos             => 'main',
-			  include_src       => false,
+			  include           => { 'src' => false },
 			}
 			
 			apt::key { 'hipchat':
-			  key_source => 'https://www.hipchat.com/keys/hipchat-linux.key',
+			  id     => 'FD1ACC751D0106938C1E6B33EBA59E53CC64091D',
+			  source => 'https://atlassian.artifactoryonline.com/atlassian/api/gpg/key/public',
 			}
 			
     }
